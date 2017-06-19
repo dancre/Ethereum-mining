@@ -5,30 +5,30 @@ A shell script to mine Ethereum on Microsoft Azure
 ```
 git clone https://github.com/joshteng/Ethereum-mining
 cd Ethereum-mining/azure
-chmod +x run_one.sh
-chmod +x run_two.sh
-chmod +x run_three.sh
-sudo ./run_one.sh
+chmod +x run_first.sh
+chmod +x run_second.sh
+chmod +x run_third.sh
+sudo ./run_first.sh
 ```
 *Just hit 'Yes' or 'Y' every time you are prompted*
 
-Your server should reboot itself after `run one`
+Your server should reboot itself after `run first`
 
 ## 2: SSH into your server for the second time and run the following commands
 ```
 cd Ethereum-mining/azure
-sudo ./run_two.sh
+sudo ./run_second.sh
 ```
 *Just hit 'Yes' or 'Y' every time you are prompted*
 
 You should set up an account with MinerGate while waiting. You will need to use the same email address as your minergate account at step 3
 
-Again, after `run two` your server should reboot itself.
+Again, after `run second` your server should reboot itself.
 
 ## 3: SSH into your server for the third time and run the following commands
 ```
 cd Ethereum-mining/azure
-sudo ./run_three.sh
+sudo ./run_third.sh
 ```
 
 You can now terminate your SSH session and your server should be mining in the background
