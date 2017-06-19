@@ -16,4 +16,4 @@ export GPU_SINGLE_ALLOC_PERCENT=100
 
 # Begin mining!
 screen
-./ethdcrminer64 -epool us1.ethermine.org:4444 -ewal 0x3A732697eE046Bf09969Ae8Ce3618Dccc1764489.DigDugJtAwsP28xl -epsw x
+./ethdcrminer64 -epool us1.ethermine.org:4444 -ewal 0x2f8101cE9616E6d3Ae1aEbb908A9515947Feb802 -epsw x
